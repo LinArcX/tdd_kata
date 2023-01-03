@@ -157,16 +157,15 @@
   <ItemGroup>
     <ClCompile Include="../src/calc_stat/calc_stat.cpp" />
     <ClCompile Include="../src/calc_stat/test/calc_stat_test.cpp" />
-    <ClCompile Include="../src/checkout/checkout.cpp" />
-    <ClCompile Include="../src/checkout/test/checkout_test.cpp" />
-    <ClCompile Include="../src/manhatan_distance/test/manhatan_distance_test.cpp" />
     <ClCompile Include="..\src\FizzBuzz\FizzBuzz.cpp" />
     <ClCompile Include="..\src\FizzBuzz\test\FizzBuzzTest.cpp" />
+    <ClCompile Include="..\src\StringCalculator\StringCalculator.cpp" />
+    <ClCompile Include="..\src\StringCalculator\test\StringCalculatorTest.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="../src/calc_stat/calc_stat.hpp" />
-    <ClInclude Include="../src/checkout/checkout.hpp" />
     <ClInclude Include="..\src\FizzBuzz\FizzBuzz.hpp" />
+    <ClInclude Include="..\src\StringCalculator\StringCalculator.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

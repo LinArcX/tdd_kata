@@ -1,3 +1,4 @@
+// https://kata-log.rocks/string-calculator-kata
 /* TestCases:
 	1. [+] Can create an instance of FizzBuzz class.
 	2. [+] print "Fizz" for 3.
@@ -16,23 +17,22 @@ TEST(FizzBuzzTests, CanCreateInstanceOfFizzBuzzClass)
 TEST(FizzBuzzTests, PrintFizzForThree)
 {
 	FizzBuzz fizzBuzz;
-	EXPECT_TRUE("Fizz" == fizzBuzz.run(3));
+	ASSERT_EQ("Fizz", fizzBuzz.run(3));
 }
 
 TEST(FizzBuzzTests, PrintBuzzForFive)
 {
 	FizzBuzz fizzBuzz;
-	EXPECT_TRUE("Buzz" == fizzBuzz.run(5));
+	ASSERT_EQ("Buzz", fizzBuzz.run(5));
 }
 
 TEST(FizzBuzzTests, PrintFizzBuzzForFifteen)
 {
 	FizzBuzz fizzBuzz;
-	EXPECT_TRUE("FizzBuzz" == fizzBuzz.run(15));
+	ASSERT_EQ("FizzBuzz", fizzBuzz.run(15));
 }
-
 TEST(FizzBuzzTests, PrintElevenForEleven)
 {
 	FizzBuzz fizzBuzz;
-	EXPECT_TRUE("11" == fizzBuzz.run(11));
+	ASSERT_EQ("11", fizzBuzz.run(11));
 }
