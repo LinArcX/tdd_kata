@@ -1,0 +1,10 @@
+*.*user
+/build
+/garbage
+/windows/.vs
+/windows/x64
+/windows/Debug
+/windows/Release
+/windows/.opencppcov
+/windows/CodeCoverage.cov
+/windows/LastCoverageResults.log

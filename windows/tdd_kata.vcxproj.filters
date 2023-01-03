@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="checkout">
+      <UniqueIdentifier>{9d34183e-1ed4-4434-a3e3-f2948b345e18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="calc_stat">
+      <UniqueIdentifier>{bf51ad63-7350-4326-b85d-cbcb3c16cb2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manhatan_distance">
+      <UniqueIdentifier>{aa9a870b-a5a9-410d-9466-702050c52ed5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="checkout\tests">
+      <UniqueIdentifier>{5a79d8f1-48c1-440b-8337-1a8e57927d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="manhatan_distance\tests">
+      <UniqueIdentifier>{7e705753-d6da-4b8c-bed7-ad253b82b03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="calc_stat\tests">
+      <UniqueIdentifier>{dab5dafa-a205-42ec-bd54-27d6a0f6b8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FizzBuzz">
+      <UniqueIdentifier>{3d2793eb-06e8-44f9-a7a6-a66867a4cdcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FizzBuzz\test">
+      <UniqueIdentifier>{584ed461-630e-4100-be2a-f1fcb9a1c0bb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="../src/calc_stat/calc_stat.cpp">
+      <Filter>calc_stat</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/calc_stat/test/calc_stat_test.cpp">
+      <Filter>calc_stat\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/checkout/checkout.cpp">
+      <Filter>checkout</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/checkout/test/checkout_test.cpp">
+      <Filter>checkout\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="../src/manhatan_distance/test/manhatan_distance_test.cpp">
+      <Filter>manhatan_distance\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FizzBuzz\FizzBuzz.cpp">
+      <Filter>FizzBuzz</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\FizzBuzz\test\FizzBuzzTest.cpp">
+      <Filter>FizzBuzz\test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="../src/calc_stat/calc_stat.hpp">
+      <Filter>calc_stat</Filter>
+    </ClInclude>
+    <ClInclude Include="../src/checkout/checkout.hpp">
+      <Filter>checkout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FizzBuzz\FizzBuzz.hpp">
+      <Filter>FizzBuzz</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
